@@ -19,13 +19,12 @@ def get_names(fms):
     all = []
 
     for l in list(string.ascii_uppercase):
-    #for l in ['O']:
         BASE_URL = "https://www.mithrilandmages.com/utilities/MedievalBrowse.php?"
         ARGUMENT = "letter={letter}&fms={fms}".format(letter=l, fms=fms)
         print("Search ", BASE_URL + ARGUMENT)
 
         r = requests.get(BASE_URL + ARGUMENT)
-        soup = bs(r.text)
+        soup = bs(r.text, 'html.parser')
 
         medNameColumns = soup.find("div", {"id": "medNameColumns"})
 
@@ -33,14 +32,18 @@ def get_names(fms):
         for n in names:
             if n.startswith(l):
                 all.append(n)
-        time.sleep(2)
+        time.sleep(2) # be gentle, dude
 
     return all
 
 monster_attributes = load_attributes('attributes-sorted.txt')
 
 all_male_names = get_names('M')
+all_female_names = get_names('F')
 
-with codecs.open('male-names.txt', 'w', 'utf-8') as f:
+with codecs.open('all-names.txt', 'w', 'utf-8') as f:
+    f.write("name,gender,attribute,id\n")
     for n in all_male_names:
         f.write("{},der,{},\n".format(n, choice(monster_attributes)))
+    for n in all_female_names:
+        f.write("{},die,{},\n".format(n, choice(monster_attributes)))

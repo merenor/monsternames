@@ -3,14 +3,12 @@ brutal
 dickfellig
 eisig
 erbarmungslos
-frigid
 frigide
 gemütsarm
 gnadenlos
 grausam
 hart
 hartherzig
-impotent
 leidenschaftslos
 hingabefähig
 unbarmherzig
@@ -18,7 +16,6 @@ unempfindlich
 unempfänglich
 ungerührt
 disziplinarisch
-betreffend
 apodiktisch
 drakonisch
 drastisch
@@ -45,7 +42,6 @@ entsetzlich
 grauenerregend
 gespenstisch
 fürchterlich
-grausenhaft
 gräulich
 gruselig
 haarsträubend
@@ -74,7 +70,6 @@ bestialisch
 blutdürstig
 eisenhart
 eisern
-entmenscht
 fest
 gewissenlos
 grob
@@ -100,7 +95,6 @@ kühl
 saukalt
 tyrannisch
 unerbittlich
-ungeheizt
 unmenschlich
 bitter
 bitterlich
@@ -124,10 +118,8 @@ entschlossen
 rigoristisch
 knallhart
 herrisch
-rbarmen
 diabolisch
 dämonisch
-erregend
 furchtbar
 infernalisch
 satanisch
@@ -136,7 +128,7 @@ teuflisch
 apathisch
 benommen
 betäubt
-bewußtlos
+bewusstlos
 eingeschlafen
 fühllos
 gefühlsarm
@@ -154,7 +146,6 @@ teilnahmslos
 temperamentlos
 unbeteiligt
 unsentimental
-durchblutet
 gestählt
 gallig
 geladen
@@ -171,8 +162,7 @@ misslich
 missmutig
 mürrisch
 schief
-schlecht
-gelaunt
+schlecht gelaunt
 skandalös
 stark
 traurig
@@ -207,15 +197,12 @@ zornig
 übel
 übellaunig
 gemeinschaftsfeindlich
-häßlich
+hässlich
 gesinnt
-strafbar
 sündig
 ungehorsam
 übelgelaunt
 böse
-beleidigend
-abfällig
 bedauerlich
 bedenklich
 brummig
@@ -231,7 +218,6 @@ furchterregend
 unheimlich
 schauderhaft
 unnahbar
-erständnis
 verneinend
 bissig
 bejammernswert
@@ -241,18 +227,14 @@ dornenvoll
 dornig
 leidvoll
 quälerisch
-eid
 gewalttätig
 destruktiv
 aggressiv
-illen
 gewaltsam
 handgemein
 handgreiflich
-ewalt
 schlagend
 tätlich
-wang
 eisenfest
 abgestumpft
 autoritär
@@ -271,7 +253,6 @@ bedrohlich
 besorgniserregend
 beunruhigend
 angsteinflößend
-urchteinflößend
 schaudererregend
 rüde
 derb
@@ -284,7 +265,7 @@ blutig
 egoistisch
 ekelhaft
 greulich
-gräßlich
+grässlich
 hemmungslos
 menschenfeindlich
 ungeheuer
@@ -299,8 +280,6 @@ erschrecklich
 erschröcklich
 terribel
 medusisch
-grass
-fürchterbar
 greislich
 schauderbar
 heillos
@@ -315,7 +294,6 @@ verdammt
 verflucht
 abgründig
 misanthropisch
-groß
 frech
 schnöde
 unnachgiebig
@@ -358,7 +336,6 @@ ordentlich
 ungestüm
 unsanft
 dumpf
-sexuell
 lüstern
 wollüstig
 triebhaft
@@ -373,10 +350,6 @@ grobsinnlich
 unzugänglich
 empfindungslos
 kränkend
-cool
-efühl
-iebe
-ärme
 hochnäsig
 unliebenswürdig
 verabscheuenswürdig
@@ -396,4 +369,3 @@ schwierig
 ernst
 unglaublich
 bedrohend
-krank
