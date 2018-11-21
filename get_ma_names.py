@@ -36,7 +36,7 @@ def get_names(fms):
 
     return all
 
-monster_attributes = load_attributes('attributes-sorted.txt')
+monster_attributes = load_attributes('synlist.txt')
 
 all_male_names = get_names('M')
 all_female_names = get_names('F')
