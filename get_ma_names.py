@@ -9,7 +9,7 @@ from random import choice
 def load_attributes(file):
     attributes = []
 
-    with codecs.open('attributes-sorted.txt', 'r', 'utf-8') as f:
+    with codecs.open(file, 'r', 'utf-8') as f:
         for line in f:
             attributes.append(line.strip())
 
